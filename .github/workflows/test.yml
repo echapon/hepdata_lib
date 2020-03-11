@@ -6,7 +6,7 @@ jobs:
   name: My job
   runs-on: ubuntu-latest
   steps:
-  - name: Test
+  - name: root:latest
     uses: docker://rootproject/root:latest
     run:
       - pip install pytest
