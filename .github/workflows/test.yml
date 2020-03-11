@@ -3,10 +3,10 @@ name: 'Integration tests'
 on: [push, pull_request]
 jobs:
   test:
-    runs-on: ubuntu-latest
+    container: rootproject/root:latest
     steps:
     - name: root:latest
-      uses: docker://rootproject/root:latest
+
       run: |
         pip install pytest
         python setup.py test
