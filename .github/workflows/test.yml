@@ -1,13 +1,12 @@
 # Test hepdata_lib
 name: 'Integration tests'
 on: [push, pull_request]
-description: 'Run pytest matrix for different Python versions with ROOT'
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
     - name: root:latest
       uses: docker://rootproject/root:latest
-      run:
-        - pip install pytest
-        - python setup.py test
+      run: |
+        pip install pytest
+        python setup.py test
