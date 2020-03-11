@@ -4,12 +4,14 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: 'rootproject/root:latest'
+    container:
+      image: 'rootproject/root:latest'
     steps:
     - name: root:latest
-
       run: |
-        yum install -y python-pip
+        yum install -y python-pip ghostscript
         ls -l
-        pip install pytest
+        pwd
+        env
+        pip install --user pytest
         python setup.py test
