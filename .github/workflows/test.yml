@@ -12,6 +12,5 @@ jobs:
     - name: root:latest
       run: |
         yum install -y python-pip ghostscript
-        cd ${GITHUB_WORKSPACE}
         pip install --user pytest
         python setup.py test
