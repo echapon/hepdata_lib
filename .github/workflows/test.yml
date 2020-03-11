@@ -3,7 +3,8 @@ name: 'Integration tests'
 on: [push, pull_request]
 jobs:
   test:
-    container: rootproject/root:latest
+    runs-on: ubuntu-latest
+    container: 'rootproject/root:latest'
     steps:
     - name: root:latest
 
