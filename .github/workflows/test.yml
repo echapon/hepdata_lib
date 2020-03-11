@@ -7,11 +7,11 @@ jobs:
     container:
       image: 'rootproject/root:latest'
     steps:
+    - name: checkout
+      uses: actions/checkout@v2
     - name: root:latest
       run: |
         yum install -y python-pip ghostscript
-        ls -l
-        pwd
-        env
+        cd ${GITHUB_WORKSPACE}
         pip install --user pytest
         python setup.py test
