@@ -9,5 +9,7 @@ jobs:
     - name: root:latest
 
       run: |
+        yum install -y python-pip
+        ls -l
         pip install pytest
         python setup.py test
