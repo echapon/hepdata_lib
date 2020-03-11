@@ -3,7 +3,6 @@ name: 'Integration tests'
 on: [push, pull_request]
 description: 'Run pytest matrix for different Python versions with ROOT'
 jobs:
-  name: My job
   runs-on: ubuntu-latest
   steps:
   - name: root:latest
