@@ -2,9 +2,11 @@
 name: 'Integration tests'
 on: [push, pull_request]
 description: 'Run pytest matrix for different Python versions with ROOT'
-runs:
-  using: 'docker'
-  image: 'docker://rootproject/root:latest'
-  args:
-    - pip install pytest
-    - python setup.py test
+jobs:
+  name: My job
+  runs-on: ubuntu-latest
+  steps:
+  - name: Test
+    run:
+      - pip install pytest
+      - python setup.py test

@@ -1,0 +1,5 @@
+name: 'Run image'
+description: 'Run prebuilt ROOT images'
+runs:
+  using: 'docker'
+  image: 'docker://rootproject/root:latest'
