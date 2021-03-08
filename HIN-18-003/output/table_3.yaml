@@ -1,0 +1,87 @@
+dependent_variables:
+- header:
+    name: Cross section
+    units: nb
+  qualifiers:
+  - name: Cross section
+    value: bla
+  - name: SQRT(S)/NUCLEON
+    units: GeV
+    value: 8160
+  values:
+  - value: 2.4761
+  - value: 10.409
+  - value: 15.525
+  - value: 22.372
+  - value: 24.757
+  - value: 30.057
+  - value: 32.641
+  - value: 34.925
+  - value: 36.82
+  - value: 35.225
+  - value: 37.215
+  - value: 35.355
+  - value: 34.974
+  - value: 34.328
+  - value: 37.978
+  - value: 34.327
+  - value: 34.501
+  - value: 31.134
+  - value: 26.317
+  - value: 23.078
+  - value: 18.028
+  - value: 11.934
+  - value: 5.6954
+  - value: 2.1178
+independent_variables:
+- header:
+    name: rapidity
+  values:
+  - high: -2.6
+    low: -2.87
+  - high: -2.4
+    low: -2.6
+  - high: -2.2
+    low: -2.4
+  - high: -1.93
+    low: -2.2
+  - high: -1.8
+    low: -1.93
+  - high: -1.6
+    low: -1.8
+  - high: -1.4
+    low: -1.6
+  - high: -1.2
+    low: -1.4
+  - high: -1.0
+    low: -1.2
+  - high: -0.8
+    low: -1.0
+  - high: -0.6
+    low: -0.8
+  - high: -0.4
+    low: -0.6
+  - high: -0.2
+    low: -0.4
+  - high: 0.0
+    low: -0.2
+  - high: 0.2
+    low: 0.0
+  - high: 0.4
+    low: 0.2
+  - high: 0.6
+    low: 0.4
+  - high: 0.8
+    low: 0.6
+  - high: 1.0
+    low: 0.8
+  - high: 1.2
+    low: 1.0
+  - high: 1.4
+    low: 1.2
+  - high: 1.6
+    low: 1.4
+  - high: 1.8
+    low: 1.6
+  - high: 1.93
+    low: 1.8

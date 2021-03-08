@@ -1,0 +1,66 @@
+dependent_variables:
+- header:
+    name: Cross section
+    units: nb
+  qualifiers:
+  - name: Cross section
+    value: bla
+  - name: SQRT(S)/NUCLEON
+    units: GeV
+    value: 8160
+  values:
+  - value: 1132.5
+  - value: 1028.9
+  - value: 1007.3
+  - value: 853.53
+  - value: 791.99
+  - value: 689.37
+  - value: 591.89
+  - value: 451.19
+  - value: 364.64
+  - value: 275.96
+  - value: 199.71
+  - value: 120.05
+  - value: 63.39
+  - value: 21.404
+  - value: 6.0422
+  - value: 1.5794
+  - value: 0.34689
+independent_variables:
+- header:
+    name: phistar
+  values:
+  - high: 0.008
+    low: 0.0022
+  - high: 0.016
+    low: 0.008
+  - high: 0.024
+    low: 0.016
+  - high: 0.034
+    low: 0.024
+  - high: 0.045
+    low: 0.034
+  - high: 0.057
+    low: 0.045
+  - high: 0.072
+    low: 0.057
+  - high: 0.091
+    low: 0.072
+  - high: 0.114
+    low: 0.091
+  - high: 0.145
+    low: 0.114
+  - high: 0.189
+    low: 0.145
+  - high: 0.258
+    low: 0.189
+  - high: 0.391
+    low: 0.258
+  - high: 0.695
+    low: 0.391
+  - high: 1.153
+    low: 0.695
+  - high: 1.947
+    low: 1.153
+  - high: 3.277
+    low: 1.947

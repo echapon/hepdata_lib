@@ -1,0 +1,55 @@
+dependent_variables:
+- header:
+    name: Cross section
+    units: nb
+  qualifiers:
+  - name: Cross section
+    value: bla
+  - name: SQRT(S)/NUCLEON
+    units: GeV
+    value: 8160
+  values:
+  - value: 0.27818
+  - value: 0.50548
+  - value: 0.79413
+  - value: 0.54082
+  - value: 0.28172
+  - value: 0.32737
+  - value: 1.0228
+  - value: 9.9346
+  - value: 0.5955
+  - value: 0.11796
+  - value: 0.035057
+  - value: 0.006723
+  - value: 0.00064147
+independent_variables:
+- header:
+    name: mass
+    units: GeV
+  values:
+  - high: 20.0
+    low: 15.0
+  - high: 30.0
+    low: 20.0
+  - high: 40.0
+    low: 30.0
+  - high: 50.0
+    low: 40.0
+  - high: 60.0
+    low: 50.0
+  - high: 76.0
+    low: 60.0
+  - high: 86.0
+    low: 76.0
+  - high: 96.0
+    low: 86.0
+  - high: 106.0
+    low: 96.0
+  - high: 120.0
+    low: 106.0
+  - high: 150.0
+    low: 120.0
+  - high: 200.0
+    low: 150.0
+  - high: 600.0
+    low: 200.0

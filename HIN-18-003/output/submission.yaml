@@ -1,0 +1,180 @@
+---
+additional_resources:
+- description: Webpage with all figures and tables
+  location: http://cms-results.web.cern.ch/cms-results/public-results/publications/HIN-18-003/
+- description: arXiv
+  location: http://arxiv.org/abs/2102.13648
+comment: ''
+data_license:
+  description: The content can be shared and adapted but you must             give
+    appropriate credit and cannot restrict access to others.
+  name: cc-by-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+record_ids:
+- id: 1849180
+  type: inspire
+---
+additional_resources:
+- description: Image file
+  location: Figure_005-a.png
+- description: Thumbnail image file
+  location: thumb_Figure_005-a.png
+data_file: table_1.yaml
+description: Differential fiducial cross section (without the acceptance correction)
+  for the DY process measured in the muon channel, as a function of dimuon invariant
+  mass. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values:
+  - DSIG / DM
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 5 a
+name: Table 1
+---
+additional_resources:
+- description: Image file
+  location: Figure_005-b.png
+- description: Thumbnail image file
+  location: thumb_Figure_005-b.png
+data_file: table_2.yaml
+description: Differential fiducial cross section (without the acceptance correction)
+  for the DY process measured in the muon channel, as a function of rapidity in the
+  centre-of-mass frame for $15<m_{\mu\mu}<60$ GeV. The quoted error is the quadratic
+  sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values:
+  - DSIG / DRAP
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 5 b
+name: Table 2
+---
+additional_resources:
+- description: Image file
+  location: Figure_005-c.png
+- description: Thumbnail image file
+  location: thumb_Figure_005-c.png
+data_file: table_3.yaml
+description: Differential fiducial cross section (without the acceptance correction)
+  for the DY process measured in the muon channel, as a function of rapidity in the
+  centre-of-mass frame for $60<m_{\mu\mu}<120$ GeV. The quoted error is the quadratic
+  sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values:
+  - DSIG / DRAP
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 5 c
+name: Table 3
+---
+additional_resources:
+- description: Image file
+  location: Figure_006-a.png
+- description: Thumbnail image file
+  location: thumb_Figure_006-a.png
+data_file: table_4.yaml
+description: "Differential fiducial cross section (without the acceptance correction)\
+  \ for the DY process measured in the muon channel, as a function of $p_{\textrm{T}}$\
+  \ for $15<m_{\\mu\\mu}<60$ GeV. The quoted error is the quadratic sum of the statistical\
+  \ and systematic uncertainties."
+keywords:
+- name: observables
+  values:
+  - DSIG / DPT
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 6 a
+name: Table 4
+---
+additional_resources:
+- description: Image file
+  location: Figure_006-b.png
+- description: Thumbnail image file
+  location: thumb_Figure_006-b.png
+data_file: table_5.yaml
+description: "Differential fiducial cross section (without the acceptance correction)\
+  \ for the DY process measured in the muon channel, as a function of $p_{\textrm{T}}$\
+  \ for $60<m_{\\mu\\mu}<120$ GeV. The quoted error is the quadratic sum of the statistical\
+  \ and systematic uncertainties."
+keywords:
+- name: observables
+  values:
+  - DSIG / DPT
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 6 b
+name: Table 5
+---
+additional_resources:
+- description: Image file
+  location: Figure_006-c.png
+- description: Thumbnail image file
+  location: thumb_Figure_006-c.png
+data_file: table_6.yaml
+description: Differential fiducial cross section (without the acceptance correction)
+  for the DY process measured in the muon channel, as a function of $\phi^*$ for $15<m_{\mu\mu}<60$
+  GeV. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values:
+  - DSIG / DPHISTAR
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 6 c
+name: Table 6
+---
+additional_resources:
+- description: Image file
+  location: Figure_006-d.png
+- description: Thumbnail image file
+  location: thumb_Figure_006-d.png
+data_file: table_7.yaml
+description: Differential fiducial cross section (without the acceptance correction)
+  for the DY process measured in the muon channel, as a function of $\phi^*$ for $60<m_{\mu\mu}<120$
+  GeV. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values:
+  - DSIG / DPHISTAR
+  - NB
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+- name: cmenergies
+  values:
+  - 8160
+location: Figure 6 d
+name: Table 7
