@@ -9,18 +9,103 @@ dependent_variables:
     units: GeV
     value: 8160
   values:
-  - value: 1.7738
-  - value: 4.845
-  - value: 5.3941
-  - value: 5.4234
-  - value: 5.6866
-  - value: 6.0507
-  - value: 5.3418
-  - value: 5.4494
-  - value: 5.7519
-  - value: 4.461
-  - value: 3.9233
-  - value: 1.6498
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - &id001 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - 0
+        - 1
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        xVVl3xXByz8=
+    value: 1.7738
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        pPyk2qfj1z8=
+    value: 4.845
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        m+Ydp+hI4D8=
+    value: 5.3941
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        XI/C9Shc2z8=
+    value: 5.4234
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        euQPBp573T8=
+    value: 5.6866
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        thDkoISZ3j8=
+    value: 6.0507
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        uAa2SrA44D8=
+    value: 5.3418
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        7ZklAWpq3T8=
+    value: 5.4494
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        R3L5D+m33z8=
+    value: 5.7519
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        ychZ2NMO3T8=
+    value: 4.461
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        2PD0SlmG1j8=
+    value: 3.9233
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        YJM16iEa1T8=
+    value: 1.6498
 independent_variables:
 - header:
     name: rapidity

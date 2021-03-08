@@ -9,15 +9,82 @@ dependent_variables:
     units: GeV
     value: 8160
   values:
-  - value: 100.67
-  - value: 84.427
-  - value: 80.173
-  - value: 73.514
-  - value: 61.087
-  - value: 38.774
-  - value: 19.41
-  - value: 4.8353
-  - value: 1.0937
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - &id001 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - 0
+        - 1
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        cT0K16NwK0A=
+    value: 100.67
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        zO7Jw0JtH0A=
+    value: 84.427
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        xEKtad7xG0A=
+    value: 80.173
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        xm00gLfAF0A=
+    value: 73.514
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        CtejcD0KEkA=
+    value: 61.087
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        EHo2qz5XBUA=
+    value: 38.774
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        EoPAyqFF9T8=
+    value: 19.41
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        7ZklAWpq1z8=
+    value: 4.8353
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        n8vUJHhDtj8=
+    value: 1.0937
 independent_variables:
 - header:
     name: phistar

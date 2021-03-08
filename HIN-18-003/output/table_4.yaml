@@ -9,14 +9,75 @@ dependent_variables:
     units: GeV
     value: 8160
   values:
-  - value: 0.97022
-  - value: 1.0986
-  - value: 0.63066
-  - value: 0.4314
-  - value: 0.24429
-  - value: 0.045222
-  - value: 0.0057736
-  - value: 0.0011842
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - &id001 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - 0
+        - 1
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        RfMAFvn1qz8=
+    value: 0.97022
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        mpguxOqPsD8=
+    value: 1.0986
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        QpQvaCEBqz8=
+    value: 0.63066
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        ajANw0fEpD8=
+    value: 0.4314
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        DksDP6phjz8=
+    value: 0.24429
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        G4S53ct9cj8=
+    value: 0.045222
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        /g8LEGDsWD8=
+    value: 0.0057736
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        2UN3IB3kNj8=
+    value: 0.0011842
 independent_variables:
 - header:
     name: pt

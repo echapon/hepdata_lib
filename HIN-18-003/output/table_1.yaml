@@ -9,19 +9,110 @@ dependent_variables:
     units: GeV
     value: 8160
   values:
-  - value: 0.27818
-  - value: 0.50548
-  - value: 0.79413
-  - value: 0.54082
-  - value: 0.28172
-  - value: 0.32737
-  - value: 1.0228
-  - value: 9.9346
-  - value: 0.5955
-  - value: 0.11796
-  - value: 0.035057
-  - value: 0.006723
-  - value: 0.00064147
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - &id001 !!python/object/apply:numpy.dtype
+        args:
+        - f8
+        - 0
+        - 1
+        state: !!python/tuple
+        - 3
+        - <
+        - null
+        - null
+        - null
+        - -1
+        - -1
+        - 0
+      - !!binary |
+        zt2ul6YIoD8=
+    value: 0.27818
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        i6ceaXBboz8=
+    value: 0.50548
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        zlDc8Sa/pT8=
+    value: 0.79413
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        Y0LMJVXbnT8=
+    value: 0.54082
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        7Eyh8xq7lD8=
+    value: 0.28172
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        tMpMaf0tkT8=
+    value: 0.32737
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        Iqev52uWoz8=
+    value: 1.0228
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        Yr68APvoyD8=
+    value: 9.9346
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        CB7f3jXomz8=
+    value: 0.5955
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        ziLKzSZ2gz8=
+    value: 0.11796
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        BLl6BO3Eaz8=
+    value: 0.035057
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        2LDwP0NJUj8=
+    value: 0.006723
+  - errors:
+    - label: Total
+      symerror: !!python/object/apply:numpy.core.multiarray.scalar
+      - *id001
+      - !!binary |
+        X/zAl7oSHj8=
+    value: 0.00064147
 independent_variables:
 - header:
     name: mass
