@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -23,56 +15,56 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.031316
-    value: 0.27818
+      symerror: 3.0713
+    value: 21.678
   - errors:
     - label: Total
-      symerror: 0.037807
-    value: 0.50548
+      symerror: 0.52574
+    value: 6.3975
   - errors:
     - label: Total
-      symerror: 0.042473
-    value: 0.79413
+      symerror: 0.099453
+    value: 1.8641
   - errors:
     - label: Total
-      symerror: 0.029157
-    value: 0.54082
+      symerror: 0.05114
+    value: 0.94944
   - errors:
     - label: Total
-      symerror: 0.020245
-    value: 0.28172
+      symerror: 0.032078
+    value: 0.45189
   - errors:
     - label: Total
-      symerror: 0.016777
-    value: 0.32737
+      symerror: 0.025437
+    value: 0.49872
   - errors:
     - label: Total
-      symerror: 0.038257
-    value: 1.0228
+      symerror: 0.057617
+    value: 1.5119
   - errors:
     - label: Total
-      symerror: 0.19461
-    value: 9.9346
+      symerror: 0.30266
+    value: 14.384
   - errors:
     - label: Total
-      symerror: 0.027253
-    value: 0.5955
+      symerror: 0.039712
+    value: 0.85382
   - errors:
     - label: Total
-      symerror: 0.0095027
-    value: 0.11796
+      symerror: 0.013631
+    value: 0.16819
   - errors:
     - label: Total
-      symerror: 0.0033898
-    value: 0.035057
+      symerror: 0.0048308
+    value: 0.04971
   - errors:
     - label: Total
-      symerror: 0.0011161
-    value: 0.006723
+      symerror: 0.0015677
+    value: 0.0094108
   - errors:
     - label: Total
-      symerror: 0.00011472
-    value: 0.00064147
+      symerror: 0.00015462
+    value: 0.00086331
 independent_variables:
 - header:
     name: mass

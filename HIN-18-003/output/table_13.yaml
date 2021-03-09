@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -29,40 +21,40 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 13.72
-    value: 100.67
+      symerror: 119.98
+    value: 767.22
   - errors:
     - label: Total
-      symerror: 7.8567
-    value: 84.427
+      symerror: 75.467
+    value: 643.93
   - errors:
     - label: Total
-      symerror: 6.9862
-    value: 80.173
+      symerror: 73.208
+    value: 641.97
   - errors:
     - label: Total
-      symerror: 5.9382
-    value: 73.514
+      symerror: 66.213
+    value: 610.52
   - errors:
     - label: Total
-      symerror: 4.51
-    value: 61.087
+      symerror: 57.158
+    value: 545.34
   - errors:
     - label: Total
-      symerror: 2.6675
-    value: 38.774
+      symerror: 39.551
+    value: 375.87
   - errors:
     - label: Total
-      symerror: 1.3295
-    value: 19.41
+      symerror: 20.992
+    value: 194.0
   - errors:
     - label: Total
-      symerror: 0.36587
-    value: 4.8353
+      symerror: 4.0597
+    value: 37.641
   - errors:
     - label: Total
-      symerror: 0.086967
-    value: 1.0937
+      symerror: 0.39929
+    value: 4.2784
 independent_variables:
 - header:
     name: phistar

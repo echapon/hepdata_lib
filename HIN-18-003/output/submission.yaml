@@ -25,15 +25,15 @@ description: Differential fiducial cross section (without the acceptance correct
   mass. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
 keywords:
 - name: observables
-  values:
-  - DSIG / DM
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DM
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 5 a
 name: Table 1
 ---
@@ -49,15 +49,16 @@ description: Differential fiducial cross section (without the acceptance correct
   sum of the statistical and systematic uncertainties.
 keywords:
 - name: observables
-  values:
-  - DSIG / DRAP
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DRAP
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 5 b
 name: Table 2
 ---
@@ -73,15 +74,16 @@ description: Differential fiducial cross section (without the acceptance correct
   sum of the statistical and systematic uncertainties.
 keywords:
 - name: observables
-  values:
-  - DSIG / DRAP
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DRAP
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production, Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 5 c
 name: Table 3
 ---
@@ -97,15 +99,16 @@ description: "Differential fiducial cross section (without the acceptance correc
   \ and systematic uncertainties."
 keywords:
 - name: observables
-  values:
-  - DSIG / DPT
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DPT
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Transverse Momentum Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 6 a
 name: Table 4
 ---
@@ -121,15 +124,16 @@ description: "Differential fiducial cross section (without the acceptance correc
   \ and systematic uncertainties."
 keywords:
 - name: observables
-  values:
-  - DSIG / DPT
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DPT
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production, Transverse Momentum Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 6 b
 name: Table 5
 ---
@@ -144,15 +148,15 @@ description: Differential fiducial cross section (without the acceptance correct
   GeV. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
 keywords:
 - name: observables
-  values:
-  - DSIG / DPHISTAR
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DPHISTAR
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 6 c
 name: Table 6
 ---
@@ -167,14 +171,181 @@ description: Differential fiducial cross section (without the acceptance correct
   GeV. The quoted error is the quadratic sum of the statistical and systematic uncertainties.
 keywords:
 - name: observables
-  values:
-  - DSIG / DPHISTAR
-  - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  values: DSIG/DPHISTAR
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
 location: Figure 6 d
 name: Table 7
+---
+additional_resources:
+- description: Image file
+  location: Figure_007-a.png
+- description: Thumbnail image file
+  location: thumb_Figure_007-a.png
+data_file: table_8.yaml
+description: Differential cross section for the DY process measured in the muon channel,
+  as a function of dimuon invariant mass. The quoted error is the quadratic sum of
+  the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values: DSIG/DM
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 7 a
+name: Table 8
+---
+additional_resources:
+- description: Image file
+  location: Figure_007-b.png
+- description: Thumbnail image file
+  location: thumb_Figure_007-b.png
+data_file: table_9.yaml
+description: Differential cross section for the DY process measured in the muon channel,
+  as a function of rapidity in the centre-of-mass frame for $15<m_{\mu\mu}<60$ GeV.
+  The quoted error is the quadratic sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values: DSIG/DRAP
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Rapidity Dependence
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 7 b
+name: Table 9
+---
+additional_resources:
+- description: Image file
+  location: Figure_007-c.png
+- description: Thumbnail image file
+  location: thumb_Figure_007-c.png
+data_file: table_10.yaml
+description: Differential cross section for the DY process measured in the muon channel,
+  as a function of rapidity in the centre-of-mass frame for $60<m_{\mu\mu}<120$ GeV.
+  The quoted error is the quadratic sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values: DSIG/DRAP
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production, Rapidity Dependence
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 7 c
+name: Table 10
+---
+additional_resources:
+- description: Image file
+  location: Figure_008-a.png
+- description: Thumbnail image file
+  location: thumb_Figure_008-a.png
+data_file: table_11.yaml
+description: "Differential cross section for the DY process measured in the muon channel,\
+  \ as a function of $p_{\textrm{T}}$ for $15<m_{\\mu\\mu}<60$ GeV. The quoted error\
+  \ is the quadratic sum of the statistical and systematic uncertainties."
+keywords:
+- name: observables
+  values: DSIG/DPT
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Transverse Momentum Dependence
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 8 a
+name: Table 11
+---
+additional_resources:
+- description: Image file
+  location: Figure_008-b.png
+- description: Thumbnail image file
+  location: thumb_Figure_008-b.png
+data_file: table_12.yaml
+description: "Differential cross section for the DY process measured in the muon channel,\
+  \ as a function of $p_{\textrm{T}}$ for $60<m_{\\mu\\mu}<120$ GeV. The quoted error\
+  \ is the quadratic sum of the statistical and systematic uncertainties."
+keywords:
+- name: observables
+  values: DSIG/DPT
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production, Transverse Momentum Dependence
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 8 b
+name: Table 12
+---
+additional_resources:
+- description: Image file
+  location: Figure_008-c.png
+- description: Thumbnail image file
+  location: thumb_Figure_008-c.png
+data_file: table_13.yaml
+description: Differential cross section for the DY process measured in the muon channel,
+  as a function of $\phi^*$ for $15<m_{\mu\mu}<60$ GeV. The quoted error is the quadratic
+  sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values: DSIG/DPHISTAR
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 8 c
+name: Table 13
+---
+additional_resources:
+- description: Image file
+  location: Figure_008-d.png
+- description: Thumbnail image file
+  location: thumb_Figure_008-d.png
+data_file: table_14.yaml
+description: Differential cross section for the DY process measured in the muon channel,
+  as a function of $\phi^*$ for $60<m_{\mu\mu}<120$ GeV. The quoted error is the quadratic
+  sum of the statistical and systematic uncertainties.
+keywords:
+- name: observables
+  values: DSIG/DPHISTAR
+- name: phrases
+  values: Inclusive, Single Differential Cross Section, Drell Yan, Di-Muon Production,
+    Z Production
+- name: cmenergies
+  values:
+  - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+location: Figure 8 d
+name: Table 14

@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -29,72 +21,72 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 33.664
-    value: 1132.5
+      symerror: 52.603
+    value: 1706.1
   - errors:
     - label: Total
-      symerror: 31.993
-    value: 1028.9
+      symerror: 49.248
+    value: 1535.4
   - errors:
     - label: Total
-      symerror: 31.889
-    value: 1007.3
+      symerror: 49.208
+    value: 1506.1
   - errors:
     - label: Total
-      symerror: 26.1
-    value: 853.53
+      symerror: 40.139
+    value: 1267.8
   - errors:
     - label: Total
-      symerror: 24.257
-    value: 791.99
+      symerror: 36.815
+    value: 1164.0
   - errors:
     - label: Total
-      symerror: 21.274
-    value: 689.37
+      symerror: 32.094
+    value: 1008.8
   - errors:
     - label: Total
-      symerror: 17.711
-    value: 591.89
+      symerror: 26.706
+    value: 863.03
   - errors:
     - label: Total
-      symerror: 13.749
-    value: 451.19
+      symerror: 20.513
+    value: 651.84
   - errors:
     - label: Total
-      symerror: 11.315
-    value: 364.64
+      symerror: 16.787
+    value: 524.65
   - errors:
     - label: Total
-      symerror: 8.4582
-    value: 275.96
+      symerror: 12.379
+    value: 391.86
   - errors:
     - label: Total
-      symerror: 6.1695
-    value: 199.71
+      symerror: 8.9554
+    value: 281.65
   - errors:
     - label: Total
-      symerror: 3.747
-    value: 120.05
+      symerror: 5.3964
+    value: 168.03
   - errors:
     - label: Total
-      symerror: 1.9833
-    value: 63.39
+      symerror: 2.8376
+    value: 88.132
   - errors:
     - label: Total
-      symerror: 0.75309
-    value: 21.404
+      symerror: 1.0774
+    value: 29.877
   - errors:
     - label: Total
-      symerror: 0.32573
-    value: 6.0422
+      symerror: 0.47501
+    value: 8.7057
   - errors:
     - label: Total
-      symerror: 0.12007
-    value: 1.5794
+      symerror: 0.18853
+    value: 2.4606
   - errors:
     - label: Total
-      symerror: 0.044188
-    value: 0.34689
+      symerror: 0.075204
+    value: 0.58772
 independent_variables:
 - header:
     name: phistar

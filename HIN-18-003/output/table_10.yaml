@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -29,100 +21,100 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.25882
-    value: 2.4761
+      symerror: 2.4867
+    value: 23.692
   - errors:
     - label: Total
-      symerror: 0.61698
-    value: 10.409
+      symerror: 2.1656
+    value: 36.026
   - errors:
     - label: Total
-      symerror: 0.7498
-    value: 15.525
+      symerror: 1.7227
+    value: 35.21
   - errors:
     - label: Total
-      symerror: 0.79372
-    value: 22.372
+      symerror: 1.3504
+    value: 37.754
   - errors:
     - label: Total
-      symerror: 1.1899
-    value: 24.757
+      symerror: 1.7032
+    value: 35.283
   - errors:
     - label: Total
-      symerror: 1.076
-    value: 30.057
+      symerror: 1.4031
+    value: 39.087
   - errors:
     - label: Total
-      symerror: 1.1489
-    value: 32.641
+      symerror: 1.3803
+    value: 39.172
   - errors:
     - label: Total
-      symerror: 1.2214
-    value: 34.925
+      symerror: 1.3879
+    value: 39.703
   - errors:
     - label: Total
-      symerror: 1.2418
-    value: 36.82
+      symerror: 1.3673
+    value: 40.562
   - errors:
     - label: Total
-      symerror: 1.2303
-    value: 35.225
+      symerror: 1.3305
+    value: 38.133
   - errors:
     - label: Total
-      symerror: 1.2654
-    value: 37.215
+      symerror: 1.3614
+    value: 40.083
   - errors:
     - label: Total
-      symerror: 1.2556
-    value: 35.355
+      symerror: 1.3497
+    value: 38.042
   - errors:
     - label: Total
-      symerror: 1.234
-    value: 34.974
+      symerror: 1.3235
+    value: 37.566
   - errors:
     - label: Total
-      symerror: 1.2345
-    value: 34.328
+      symerror: 1.3334
+    value: 37.121
   - errors:
     - label: Total
-      symerror: 1.2702
-    value: 37.978
+      symerror: 1.388
+    value: 41.544
   - errors:
     - label: Total
-      symerror: 1.2106
-    value: 34.327
+      symerror: 1.3616
+    value: 38.626
   - errors:
     - label: Total
-      symerror: 1.1756
-    value: 34.501
+      symerror: 1.3852
+    value: 40.648
   - errors:
     - label: Total
-      symerror: 1.1023
-    value: 31.134
+      symerror: 1.3904
+    value: 39.224
   - errors:
     - label: Total
-      symerror: 1.0025
-    value: 26.317
+      symerror: 1.3983
+    value: 36.628
   - errors:
     - label: Total
-      symerror: 0.9297
-    value: 23.078
+      symerror: 1.5158
+    value: 37.314
   - errors:
     - label: Total
-      symerror: 0.81851
-    value: 18.028
+      symerror: 1.6702
+    value: 36.374
   - errors:
     - label: Total
-      symerror: 0.66675
-    value: 11.934
+      symerror: 1.9184
+    value: 33.825
   - errors:
     - label: Total
-      symerror: 0.46348
-    value: 5.6954
+      symerror: 2.4343
+    value: 29.482
   - errors:
     - label: Total
-      symerror: 0.3412
-    value: 2.1178
+      symerror: 6.0644
+    value: 36.743
 independent_variables:
 - header:
     name: rapidity

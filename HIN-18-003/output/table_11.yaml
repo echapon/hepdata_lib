@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -29,36 +21,36 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.054611
-    value: 0.97022
+      symerror: 1.4912
+    value: 15.032
   - errors:
     - label: Total
-      symerror: 0.064696
-    value: 1.0986
+      symerror: 1.0205
+    value: 10.243
   - errors:
     - label: Total
-      symerror: 0.052743
-    value: 0.63066
+      symerror: 0.52213
+    value: 4.6756
   - errors:
     - label: Total
-      symerror: 0.04056
-    value: 0.4314
+      symerror: 0.27078
+    value: 2.4058
   - errors:
     - label: Total
-      symerror: 0.015323
-    value: 0.24429
+      symerror: 0.051556
+    value: 0.73726
   - errors:
     - label: Total
-      symerror: 0.0045145
-    value: 0.045222
+      symerror: 0.0091227
+    value: 0.091179
   - errors:
     - label: Total
-      symerror: 0.0015212
-    value: 0.0057736
+      symerror: 0.0024813
+    value: 0.0093445
   - errors:
     - label: Total
-      symerror: 0.00034929
-    value: 0.0011842
+      symerror: 0.00051117
+    value: 0.0017533
 independent_variables:
 - header:
     name: pt

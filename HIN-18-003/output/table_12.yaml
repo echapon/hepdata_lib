@@ -3,14 +3,6 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
-  - name: PT(MU)
-    units: GeV
-    value: '> 15'
-  - name: PT(MU)
-    units: GeV
-    value: '> 10'
-  - name: ABS(ETA_LAB(MU))
-    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
@@ -29,72 +21,72 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.11921
-    value: 3.6016
+      symerror: 0.19046
+    value: 5.5658
   - errors:
     - label: Total
-      symerror: 0.17499
-    value: 6.3461
+      symerror: 0.27709
+    value: 9.6336
   - errors:
     - label: Total
-      symerror: 0.17102
-    value: 6.0252
+      symerror: 0.26648
+    value: 9.0186
   - errors:
     - label: Total
-      symerror: 0.15188
-    value: 4.7906
+      symerror: 0.23196
+    value: 7.0833
   - errors:
     - label: Total
-      symerror: 0.14257
-    value: 4.2524
+      symerror: 0.21623
+    value: 6.2777
   - errors:
     - label: Total
-      symerror: 0.12757
-    value: 3.4456
+      symerror: 0.18973
+    value: 5.0161
   - errors:
     - label: Total
-      symerror: 0.11106
-    value: 2.6512
+      symerror: 0.16417
+    value: 3.8586
   - errors:
     - label: Total
-      symerror: 0.099971
-    value: 2.2472
+      symerror: 0.14607
+    value: 3.2453
   - errors:
     - label: Total
-      symerror: 0.041619
-    value: 1.5095
+      symerror: 0.061358
+    value: 2.1529
   - errors:
     - label: Total
-      symerror: 0.028615
-    value: 0.82261
+      symerror: 0.040665
+    value: 1.1477
   - errors:
     - label: Total
-      symerror: 0.021855
-    value: 0.51487
+      symerror: 0.030145
+    value: 0.70103
   - errors:
     - label: Total
-      symerror: 0.011482
-    value: 0.27274
+      symerror: 0.015258
+    value: 0.35886
   - errors:
     - label: Total
-      symerror: 0.0071438
-    value: 0.11697
+      symerror: 0.009142
+    value: 0.1491
   - errors:
     - label: Total
-      symerror: 0.0054501
-    value: 0.06501
+      symerror: 0.0068281
+    value: 0.08162
   - errors:
     - label: Total
-      symerror: 0.0024269
-    value: 0.024442
+      symerror: 0.002955
+    value: 0.029816
   - errors:
     - label: Total
-      symerror: 0.0014261
-    value: 0.0054254
+      symerror: 0.0016716
+    value: 0.0063617
   - errors:
     - label: Total
-      symerror: 0.00030921
-    value: 0.0012885
+      symerror: 0.00035781
+    value: 0.0015003
 independent_variables:
 - header:
     name: pt
