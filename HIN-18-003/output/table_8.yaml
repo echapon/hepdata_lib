@@ -3,96 +3,41 @@ dependent_variables:
     name: Cross section
     units: nb
   qualifiers:
+  - name: PT(MU)
+    units: GeV
+    value: '> 15'
+  - name: PT(MU)
+    units: GeV
+    value: '> 10'
+  - name: ABS(ETA_LAB(MU))
+    value: < 2.4
   - name: RAP_CM
     value: '> - 2.87'
   - name: RAP_CM
     value: < 1.93
-  - name: RE
-    value: P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
-  - name: SQRT(S)/NUCLEON
-    units: GeV
-    value: 8160
   values:
   - errors:
-    - label: Total
-      symerror: 3.0713
-    value: 21.678
+    - label: stat
+      symerror: 0.5
+    - label: syst
+      symerror: 0.8
+    - label: global luminosity uncertainty
+      symerror: 0.791
+    value: 22.6
   - errors:
-    - label: Total
-      symerror: 0.52574
-    value: 6.3975
-  - errors:
-    - label: Total
-      symerror: 0.099453
-    value: 1.8641
-  - errors:
-    - label: Total
-      symerror: 0.05114
-    value: 0.94944
-  - errors:
-    - label: Total
-      symerror: 0.032078
-    value: 0.45189
-  - errors:
-    - label: Total
-      symerror: 0.025437
-    value: 0.49872
-  - errors:
-    - label: Total
-      symerror: 0.057617
-    value: 1.5119
-  - errors:
-    - label: Total
-      symerror: 0.30266
-    value: 14.384
-  - errors:
-    - label: Total
-      symerror: 0.039712
-    value: 0.85382
-  - errors:
-    - label: Total
-      symerror: 0.013631
-    value: 0.16819
-  - errors:
-    - label: Total
-      symerror: 0.0048308
-    value: 0.04971
-  - errors:
-    - label: Total
-      symerror: 0.0015677
-    value: 0.0094108
-  - errors:
-    - label: Total
-      symerror: 0.00015462
-    value: 0.00086331
+    - label: stat
+      symerror: 0.9
+    - label: syst
+      symerror: 1.6
+    - label: global luminosity uncertainty
+      symerror: 4.2805
+    value: 122.3
 independent_variables:
 - header:
     name: mass
     units: GeV
   values:
-  - high: 20.0
-    low: 15.0
-  - high: 30.0
-    low: 20.0
-  - high: 40.0
-    low: 30.0
-  - high: 50.0
-    low: 40.0
   - high: 60.0
-    low: 50.0
-  - high: 76.0
-    low: 60.0
-  - high: 86.0
-    low: 76.0
-  - high: 96.0
-    low: 86.0
-  - high: 106.0
-    low: 96.0
+    low: 15.0
   - high: 120.0
-    low: 106.0
-  - high: 150.0
-    low: 120.0
-  - high: 200.0
-    low: 150.0
-  - high: 600.0
-    low: 200.0
+    low: 60.0

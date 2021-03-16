@@ -11,23 +11,23 @@ submission = Submission()
 
 # In[2]:
 
-
 table = Table("Example table")
 
 data = np.loadtxt("inputs/dump_mass.txt", skiprows=3)
 
 d = Variable("mass", is_independent=True, is_binned=True, units="GeV")
 d.values = data[:,0:2]
-#d.values = list([x for x in data[:,0:2]])
 
 dsigma = Variable("Cross section", is_independent=False, is_binned=False, units="nb")
 dsigma.values = data[:,2]
-#dsigma.values = list([x for x in data[:,2]])
 
 unc = Uncertainty('Total')
 
-unc.values = list([x for x in data[:,3]])
-#print(unc.values)
+## this works only in python2
+unc.values = data[:,3]
+## this works in both python2 and python3
+# unc.values = [float(x) for x in data[:,3]]
+
 dsigma.add_uncertainty(unc)
 
 table.add_variable(d)

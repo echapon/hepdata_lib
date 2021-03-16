@@ -9,10 +9,10 @@ dependent_variables:
     value: < 1.93
   - name: M
     units: GeV
-    value: '> 60'
+    value: '> 15'
   - name: M
     units: GeV
-    value: < 120
+    value: < 60
   - name: RE
     value: P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
   - name: SQRT(S)/NUCLEON
@@ -21,149 +21,101 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 2.4867
-    value: 23.692
+      symerror: 5.1675
+    - label: global luminosity uncertainty
+      symerror: 1.307
+    value: 37.343
   - errors:
     - label: Total
-      symerror: 2.1656
-    value: 36.026
+      symerror: 4.1338
+    - label: global luminosity uncertainty
+      symerror: 1.4409
+    value: 41.169
   - errors:
     - label: Total
-      symerror: 1.7227
-    value: 35.21
+      symerror: 4.5322
+    - label: global luminosity uncertainty
+      symerror: 1.3336
+    value: 38.104
   - errors:
     - label: Total
+      symerror: 4.0945
+    - label: global luminosity uncertainty
+      symerror: 1.3098
+    value: 37.423
+  - errors:
+    - label: Total
+      symerror: 4.2786
+    - label: global luminosity uncertainty
+      symerror: 1.3237
+    value: 37.821
+  - errors:
+    - label: Total
+      symerror: 4.5495
+    - label: global luminosity uncertainty
+      symerror: 1.4074
+    value: 40.21
+  - errors:
+    - label: Total
+      symerror: 4.4859
+    - label: global luminosity uncertainty
+      symerror: 1.2387
+    value: 35.393
+  - errors:
+    - label: Total
+      symerror: 4.3109
+    - label: global luminosity uncertainty
+      symerror: 1.2872
+    value: 36.778
+  - errors:
+    - label: Total
+      symerror: 4.5225
+    - label: global luminosity uncertainty
       symerror: 1.3504
-    value: 37.754
+    value: 38.583
   - errors:
     - label: Total
-      symerror: 1.7032
-    value: 35.283
+      symerror: 4.1225
+    - label: global luminosity uncertainty
+      symerror: 1.1381
+    value: 32.518
   - errors:
     - label: Total
-      symerror: 1.4031
-    value: 39.087
+      symerror: 4.3907
+    - label: global luminosity uncertainty
+      symerror: 1.3504
+    value: 38.584
   - errors:
     - label: Total
-      symerror: 1.3803
-    value: 39.172
-  - errors:
-    - label: Total
-      symerror: 1.3879
-    value: 39.703
-  - errors:
-    - label: Total
-      symerror: 1.3673
-    value: 40.562
-  - errors:
-    - label: Total
-      symerror: 1.3305
-    value: 38.133
-  - errors:
-    - label: Total
-      symerror: 1.3614
-    value: 40.083
-  - errors:
-    - label: Total
-      symerror: 1.3497
-    value: 38.042
-  - errors:
-    - label: Total
-      symerror: 1.3235
-    value: 37.566
-  - errors:
-    - label: Total
-      symerror: 1.3334
-    value: 37.121
-  - errors:
-    - label: Total
-      symerror: 1.388
-    value: 41.544
-  - errors:
-    - label: Total
-      symerror: 1.3616
-    value: 38.626
-  - errors:
-    - label: Total
-      symerror: 1.3852
-    value: 40.648
-  - errors:
-    - label: Total
-      symerror: 1.3904
-    value: 39.224
-  - errors:
-    - label: Total
-      symerror: 1.3983
-    value: 36.628
-  - errors:
-    - label: Total
-      symerror: 1.5158
-    value: 37.314
-  - errors:
-    - label: Total
-      symerror: 1.6702
-    value: 36.374
-  - errors:
-    - label: Total
-      symerror: 1.9184
-    value: 33.825
-  - errors:
-    - label: Total
-      symerror: 2.4343
-    value: 29.482
-  - errors:
-    - label: Total
-      symerror: 6.0644
-    value: 36.743
+      symerror: 8.651
+    - label: global luminosity uncertainty
+      symerror: 1.4274
+    value: 40.783
 independent_variables:
 - header:
     name: rapidity
   values:
-  - high: -2.6
-    low: -2.87
   - high: -2.4
-    low: -2.6
-  - high: -2.2
-    low: -2.4
+    low: -2.87
   - high: -1.93
-    low: -2.2
-  - high: -1.8
-    low: -1.93
+    low: -2.4
   - high: -1.6
-    low: -1.8
-  - high: -1.4
-    low: -1.6
+    low: -1.93
   - high: -1.2
-    low: -1.4
-  - high: -1.0
-    low: -1.2
+    low: -1.6
   - high: -0.8
-    low: -1.0
-  - high: -0.6
-    low: -0.8
+    low: -1.2
   - high: -0.4
-    low: -0.6
-  - high: -0.2
-    low: -0.4
+    low: -0.8
   - high: 0.0
-    low: -0.2
-  - high: 0.2
-    low: 0.0
+    low: -0.4
   - high: 0.4
-    low: 0.2
-  - high: 0.6
-    low: 0.4
+    low: 0.0
   - high: 0.8
-    low: 0.6
-  - high: 1.0
-    low: 0.8
+    low: 0.4
   - high: 1.2
-    low: 1.0
-  - high: 1.4
-    low: 1.2
+    low: 0.8
   - high: 1.6
-    low: 1.4
-  - high: 1.8
-    low: 1.6
+    low: 1.2
   - high: 1.93
-    low: 1.8
+    low: 1.6

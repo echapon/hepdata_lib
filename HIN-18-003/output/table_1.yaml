@@ -24,54 +24,80 @@ dependent_variables:
   - errors:
     - label: Total
       symerror: 0.031316
+    - label: global luminosity uncertainty
+      symerror: 0.0097363
     value: 0.27818
   - errors:
     - label: Total
       symerror: 0.037807
+    - label: global luminosity uncertainty
+      symerror: 0.017692
     value: 0.50548
   - errors:
     - label: Total
       symerror: 0.042473
+    - label: global luminosity uncertainty
+      symerror: 0.027795
     value: 0.79413
   - errors:
     - label: Total
       symerror: 0.029157
+    - label: global luminosity uncertainty
+      symerror: 0.018929
     value: 0.54082
   - errors:
     - label: Total
       symerror: 0.020245
+    - label: global luminosity uncertainty
+      symerror: 0.0098602
     value: 0.28172
   - errors:
     - label: Total
       symerror: 0.016777
+    - label: global luminosity uncertainty
+      symerror: 0.011458
     value: 0.32737
   - errors:
     - label: Total
       symerror: 0.038257
+    - label: global luminosity uncertainty
+      symerror: 0.035799
     value: 1.0228
   - errors:
     - label: Total
       symerror: 0.19461
+    - label: global luminosity uncertainty
+      symerror: 0.34771
     value: 9.9346
   - errors:
     - label: Total
       symerror: 0.027253
+    - label: global luminosity uncertainty
+      symerror: 0.020842
     value: 0.5955
   - errors:
     - label: Total
       symerror: 0.0095027
+    - label: global luminosity uncertainty
+      symerror: 0.0041285
     value: 0.11796
   - errors:
     - label: Total
       symerror: 0.0033898
+    - label: global luminosity uncertainty
+      symerror: 0.001227
     value: 0.035057
   - errors:
     - label: Total
       symerror: 0.0011161
+    - label: global luminosity uncertainty
+      symerror: 0.0002353
     value: 0.006723
   - errors:
     - label: Total
       symerror: 0.00011472
+    - label: global luminosity uncertainty
+      symerror: 2.2452e-05
     value: 0.00064147
 independent_variables:
 - header:

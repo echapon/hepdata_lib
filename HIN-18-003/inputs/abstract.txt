@@ -1,1 +1,13 @@
-Differential cross sections for the Drell--Yan process, including \PZ boson production, using the dimuon decay channel are measured in proton-lead (\pPb) collisions at a nucleon-nucleon centre-of-mass energy of 8.16\TeV. A data sample recorded with the CMS detector at the LHC is used, corresponding to an integrated luminosity of 173\nbinv.     The differential cross section as a function of the dimuon mass is measured in the range 15--600\GeV, for the first time in proton-nucleus collisions.    It is also reported as a function of dimuon rapidity over the mass ranges 15--60\GeV and 60--120\GeV,    and ratios for the \Pp-going over the \myPb-going beam directions are built.    In both mass ranges, the differential cross sections as functions of the dimuon transverse momentum \pt and of a geometric variable \phistar are measured, where \phistar highly correlates with \pt but is determined with higher precision.    In the \PZ mass region, the rapidity dependence of the data indicate a modification of the distribution of partons within a lead nucleus as compared to the proton case. The data are more precise than predictions based upon current models of parton distributions.
+Differential cross sections for the Drell-Yan process, including Z boson 
+production, using the dimuon decay channel are measured in proton-lead (pPb) 
+collisions at a nucleon-nucleon centre-of-mass energy of 8.16 TeV. A data 
+sample recorded with the CMS detector at the LHC is used, corresponding to 
+an integrated luminosity of 173 nb$^{-1}$. The differential cross 
+section as a function of the dimuon mass is measured in the range 15-600 
+GeV, for the first time in proton-nucleus collisions. It is also 
+reported as a function of dimuon rapidity over the mass ranges 15-60 GeV 
+and 60-120 GeV, and ratios for the p-going over the Pb-going beam 
+directions are built. In both mass ranges, the differential cross 
+sections as functions of the dimuon transverse momentum $p_\textrm{T}$ and 
+of a geometric variable $\phi^{*}$ are measured, where $\phi^{*}$ highly 
+correlates with $p_\textrm{T}$ but is determined with higher precision. In the Z mass region, the rapidity dependence of the data indicate a modification of the distribution of partons within a lead nucleus as compared to the proton case. The data are more precise than predictions based upon current models of parton distributions.

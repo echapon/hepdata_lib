@@ -7,12 +7,6 @@ dependent_variables:
     value: '> - 2.87'
   - name: RAP_CM
     value: < 1.93
-  - name: M
-    units: GeV
-    value: '> 15'
-  - name: M
-    units: GeV
-    value: < 60
   - name: RE
     value: P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
   - name: SQRT(S)/NUCLEON
@@ -21,77 +15,110 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 5.1675
-    value: 37.343
+      symerror: 3.0713
+    - label: global luminosity uncertainty
+      symerror: 0.75873
+    value: 21.678
   - errors:
     - label: Total
-      symerror: 4.1338
-    value: 41.169
+      symerror: 0.52574
+    - label: global luminosity uncertainty
+      symerror: 0.22391
+    value: 6.3975
   - errors:
     - label: Total
-      symerror: 4.5322
-    value: 38.104
+      symerror: 0.099453
+    - label: global luminosity uncertainty
+      symerror: 0.065244
+    value: 1.8641
   - errors:
     - label: Total
-      symerror: 4.0945
-    value: 37.423
+      symerror: 0.05114
+    - label: global luminosity uncertainty
+      symerror: 0.03323
+    value: 0.94944
   - errors:
     - label: Total
-      symerror: 4.2786
-    value: 37.821
+      symerror: 0.032078
+    - label: global luminosity uncertainty
+      symerror: 0.015816
+    value: 0.45189
   - errors:
     - label: Total
-      symerror: 4.5495
-    value: 40.21
+      symerror: 0.025437
+    - label: global luminosity uncertainty
+      symerror: 0.017455
+    value: 0.49872
   - errors:
     - label: Total
-      symerror: 4.4859
-    value: 35.393
+      symerror: 0.057617
+    - label: global luminosity uncertainty
+      symerror: 0.052916
+    value: 1.5119
   - errors:
     - label: Total
-      symerror: 4.3109
-    value: 36.778
+      symerror: 0.30266
+    - label: global luminosity uncertainty
+      symerror: 0.50343
+    value: 14.384
   - errors:
     - label: Total
-      symerror: 4.5225
-    value: 38.583
+      symerror: 0.039712
+    - label: global luminosity uncertainty
+      symerror: 0.029884
+    value: 0.85382
   - errors:
     - label: Total
-      symerror: 4.1225
-    value: 32.518
+      symerror: 0.013631
+    - label: global luminosity uncertainty
+      symerror: 0.0058868
+    value: 0.16819
   - errors:
     - label: Total
-      symerror: 4.3907
-    value: 38.584
+      symerror: 0.0048308
+    - label: global luminosity uncertainty
+      symerror: 0.0017399
+    value: 0.04971
   - errors:
     - label: Total
-      symerror: 8.651
-    value: 40.783
+      symerror: 0.0015677
+    - label: global luminosity uncertainty
+      symerror: 0.00032938
+    value: 0.0094108
+  - errors:
+    - label: Total
+      symerror: 0.00015462
+    - label: global luminosity uncertainty
+      symerror: 3.0216e-05
+    value: 0.00086331
 independent_variables:
 - header:
-    name: rapidity
+    name: mass
+    units: GeV
   values:
-  - high: -2.4
-    low: -2.87
-  - high: -1.93
-    low: -2.4
-  - high: -1.6
-    low: -1.93
-  - high: -1.2
-    low: -1.6
-  - high: -0.8
-    low: -1.2
-  - high: -0.4
-    low: -0.8
-  - high: 0.0
-    low: -0.4
-  - high: 0.4
-    low: 0.0
-  - high: 0.8
-    low: 0.4
-  - high: 1.2
-    low: 0.8
-  - high: 1.6
-    low: 1.2
-  - high: 1.93
-    low: 1.6
+  - high: 20.0
+    low: 15.0
+  - high: 30.0
+    low: 20.0
+  - high: 40.0
+    low: 30.0
+  - high: 50.0
+    low: 40.0
+  - high: 60.0
+    low: 50.0
+  - high: 76.0
+    low: 60.0
+  - high: 86.0
+    low: 76.0
+  - high: 96.0
+    low: 86.0
+  - high: 106.0
+    low: 96.0
+  - high: 120.0
+    low: 106.0
+  - high: 150.0
+    low: 120.0
+  - high: 200.0
+    low: 150.0
+  - high: 600.0
+    low: 200.0

@@ -1,0 +1,161 @@
+dependent_variables:
+- header:
+    name: Cross section
+    units: nb
+  qualifiers:
+  - name: RAP_CM
+    value: '> - 2.87'
+  - name: RAP_CM
+    value: < 1.93
+  - name: M
+    units: GeV
+    value: '> 60'
+  - name: M
+    units: GeV
+    value: < 120
+  - name: RE
+    value: P PB --> Z0 <MU+ MU-> X, P PB --> GAMMA* <MU+ MU-> X
+  - name: SQRT(S)/NUCLEON
+    units: GeV
+    value: 8160
+  values:
+  - errors:
+    - label: Total
+      symerror: 52.603
+    - label: global luminosity uncertainty
+      symerror: 59.713
+    value: 1706.1
+  - errors:
+    - label: Total
+      symerror: 49.248
+    - label: global luminosity uncertainty
+      symerror: 53.739
+    value: 1535.4
+  - errors:
+    - label: Total
+      symerror: 49.208
+    - label: global luminosity uncertainty
+      symerror: 52.715
+    value: 1506.1
+  - errors:
+    - label: Total
+      symerror: 40.139
+    - label: global luminosity uncertainty
+      symerror: 44.372
+    value: 1267.8
+  - errors:
+    - label: Total
+      symerror: 36.815
+    - label: global luminosity uncertainty
+      symerror: 40.739
+    value: 1164.0
+  - errors:
+    - label: Total
+      symerror: 32.094
+    - label: global luminosity uncertainty
+      symerror: 35.308
+    value: 1008.8
+  - errors:
+    - label: Total
+      symerror: 26.706
+    - label: global luminosity uncertainty
+      symerror: 30.206
+    value: 863.03
+  - errors:
+    - label: Total
+      symerror: 20.513
+    - label: global luminosity uncertainty
+      symerror: 22.814
+    value: 651.84
+  - errors:
+    - label: Total
+      symerror: 16.787
+    - label: global luminosity uncertainty
+      symerror: 18.363
+    value: 524.65
+  - errors:
+    - label: Total
+      symerror: 12.379
+    - label: global luminosity uncertainty
+      symerror: 13.715
+    value: 391.86
+  - errors:
+    - label: Total
+      symerror: 8.9554
+    - label: global luminosity uncertainty
+      symerror: 9.8577
+    value: 281.65
+  - errors:
+    - label: Total
+      symerror: 5.3964
+    - label: global luminosity uncertainty
+      symerror: 5.8812
+    value: 168.03
+  - errors:
+    - label: Total
+      symerror: 2.8376
+    - label: global luminosity uncertainty
+      symerror: 3.0846
+    value: 88.132
+  - errors:
+    - label: Total
+      symerror: 1.0774
+    - label: global luminosity uncertainty
+      symerror: 1.0457
+    value: 29.877
+  - errors:
+    - label: Total
+      symerror: 0.47501
+    - label: global luminosity uncertainty
+      symerror: 0.3047
+    value: 8.7057
+  - errors:
+    - label: Total
+      symerror: 0.18853
+    - label: global luminosity uncertainty
+      symerror: 0.086121
+    value: 2.4606
+  - errors:
+    - label: Total
+      symerror: 0.075204
+    - label: global luminosity uncertainty
+      symerror: 0.02057
+    value: 0.58772
+independent_variables:
+- header:
+    name: phistar
+  values:
+  - high: 0.008
+    low: 0
+  - high: 0.016
+    low: 0.008
+  - high: 0.024
+    low: 0.016
+  - high: 0.034
+    low: 0.024
+  - high: 0.045
+    low: 0.034
+  - high: 0.057
+    low: 0.045
+  - high: 0.072
+    low: 0.057
+  - high: 0.091
+    low: 0.072
+  - high: 0.114
+    low: 0.091
+  - high: 0.145
+    low: 0.114
+  - high: 0.189
+    low: 0.145
+  - high: 0.258
+    low: 0.189
+  - high: 0.391
+    low: 0.258
+  - high: 0.695
+    low: 0.391
+  - high: 1.153
+    low: 0.695
+  - high: 1.947
+    low: 1.153
+  - high: 3.277
+    low: 1.947

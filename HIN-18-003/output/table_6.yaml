@@ -30,45 +30,63 @@ dependent_variables:
   - errors:
     - label: Total
       symerror: 13.72
+    - label: global luminosity uncertainty
+      symerror: 3.5233
     value: 100.67
   - errors:
     - label: Total
       symerror: 7.8567
+    - label: global luminosity uncertainty
+      symerror: 2.9549
     value: 84.427
   - errors:
     - label: Total
       symerror: 6.9862
+    - label: global luminosity uncertainty
+      symerror: 2.8061
     value: 80.173
   - errors:
     - label: Total
       symerror: 5.9382
+    - label: global luminosity uncertainty
+      symerror: 2.573
     value: 73.514
   - errors:
     - label: Total
       symerror: 4.51
+    - label: global luminosity uncertainty
+      symerror: 2.138
     value: 61.087
   - errors:
     - label: Total
       symerror: 2.6675
+    - label: global luminosity uncertainty
+      symerror: 1.3571
     value: 38.774
   - errors:
     - label: Total
       symerror: 1.3295
+    - label: global luminosity uncertainty
+      symerror: 0.67934
     value: 19.41
   - errors:
     - label: Total
       symerror: 0.36587
+    - label: global luminosity uncertainty
+      symerror: 0.16923
     value: 4.8353
   - errors:
     - label: Total
       symerror: 0.086967
+    - label: global luminosity uncertainty
+      symerror: 0.03828
     value: 1.0937
 independent_variables:
 - header:
     name: phistar
   values:
   - high: 0.008
-    low: 0.0022
+    low: 0
   - high: 0.024
     low: 0.008
   - high: 0.045
