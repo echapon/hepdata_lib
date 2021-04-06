@@ -30,9 +30,9 @@ record_ids:
 ---
 additional_resources:
 - description: Image file
-  location: Figure_005-a.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_005-a.png
+  location: thumb_Figure_005-b.png
 data_file: table_1.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of dimuon invariant
@@ -43,19 +43,20 @@ keywords:
   values:
   - DSIG / DM
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 5 a
 name: Table 1
 ---
@@ -75,10 +76,6 @@ keywords:
   values:
   - DSIG / DRAP
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -89,14 +86,18 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 5 b
 name: Table 2
 ---
 additional_resources:
 - description: Image file
-  location: Figure_005-c.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_005-c.png
+  location: thumb_Figure_005-b.png
 data_file: table_3.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of rapidity in the
@@ -108,29 +109,28 @@ keywords:
   values:
   - DSIG / DRAP
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
   - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 5 c
 name: Table 3
 ---
 additional_resources:
 - description: Image file
-  location: Figure_006-a.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_006-a.png
+  location: thumb_Figure_005-b.png
 data_file: table_4.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of $p_{\textrm{T}}$
@@ -142,28 +142,28 @@ keywords:
   values:
   - DSIG / DPT
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Transverse Momentum Dependence
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 6 a
 name: Table 4
 ---
 additional_resources:
 - description: Image file
-  location: Figure_006-b.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_006-b.png
+  location: thumb_Figure_005-b.png
 data_file: table_5.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of $p_{\textrm{T}}$
@@ -175,29 +175,28 @@ keywords:
   values:
   - DSIG / DPT
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
-  - Transverse Momentum Dependence
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 6 b
 name: Table 5
 ---
 additional_resources:
 - description: Image file
-  location: Figure_006-c.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_006-c.png
+  location: thumb_Figure_005-b.png
 data_file: table_6.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of $\phi^*$ for $15<m_{\mu\mu}<60$
@@ -208,27 +207,28 @@ keywords:
   values:
   - DSIG / DPHISTAR
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 6 c
 name: Table 6
 ---
 additional_resources:
 - description: Image file
-  location: Figure_006-d.png
+  location: Figure_005-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_006-d.png
+  location: thumb_Figure_005-b.png
 data_file: table_7.yaml
 description: Differential fiducial cross section (without the acceptance correction)
   for the DY process measured in the muon channel, as a function of $\phi^*$ for $60<m_{\mu\mu}<120$
@@ -239,20 +239,20 @@ keywords:
   values:
   - DSIG / DPHISTAR
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 6 d
 name: Table 7
 ---
@@ -265,10 +265,6 @@ keywords:
   values:
   - SIG
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -278,14 +274,18 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Paper text (Section 3)
 name: Table 8
 ---
 additional_resources:
 - description: Image file
-  location: Figure_007-a.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_007-a.png
+  location: thumb_Figure_007-b.png
 data_file: table_9.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of dimuon invariant mass. The quoted error is the quadratic sum of
@@ -296,19 +296,20 @@ keywords:
   values:
   - DSIG / DM
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 7 a
 name: Table 9
 ---
@@ -327,10 +328,6 @@ keywords:
   values:
   - DSIG / DRAP
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -341,14 +338,18 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 7 b
 name: Table 10
 ---
 additional_resources:
 - description: Image file
-  location: Figure_007-c.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_007-c.png
+  location: thumb_Figure_007-b.png
 data_file: table_11.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of rapidity in the centre-of-mass frame for $60<m_{\mu\mu}<120$ GeV.
@@ -359,29 +360,28 @@ keywords:
   values:
   - DSIG / DRAP
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
   - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 7 c
 name: Table 11
 ---
 additional_resources:
 - description: Image file
-  location: Figure_008-a.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_008-a.png
+  location: thumb_Figure_007-b.png
 data_file: table_12.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of $p_{\textrm{T}}$ for $15<m_{\mu\mu}<60$ GeV. The quoted error is
@@ -392,28 +392,28 @@ keywords:
   values:
   - DSIG / DPT
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Transverse Momentum Dependence
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 8 a
 name: Table 12
 ---
 additional_resources:
 - description: Image file
-  location: Figure_008-b.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_008-b.png
+  location: thumb_Figure_007-b.png
 data_file: table_13.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of $p_{\textrm{T}}$ for $60<m_{\mu\mu}<120$ GeV. The quoted error
@@ -424,29 +424,28 @@ keywords:
   values:
   - DSIG / DPT
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
-  - Transverse Momentum Dependence
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 8 b
 name: Table 13
 ---
 additional_resources:
 - description: Image file
-  location: Figure_008-c.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_008-c.png
+  location: thumb_Figure_007-b.png
 data_file: table_14.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of $\phi^*$ for $15<m_{\mu\mu}<60$ GeV. The quoted error is the quadratic
@@ -457,27 +456,28 @@ keywords:
   values:
   - DSIG / DPHISTAR
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 8 c
 name: Table 14
 ---
 additional_resources:
 - description: Image file
-  location: Figure_008-d.png
+  location: Figure_007-b.png
 - description: Thumbnail image file
-  location: thumb_Figure_008-d.png
+  location: thumb_Figure_007-b.png
 data_file: table_15.yaml
 description: Differential cross section for the DY process measured in the muon channel,
   as a function of $\phi^*$ for $60<m_{\mu\mu}<120$ GeV. The quoted error is the quadratic
@@ -488,20 +488,20 @@ keywords:
   values:
   - DSIG / DPHISTAR
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
   - Single Differential Cross Section
   - Drell Yan
   - Di-Muon Production
-  - Z Production
+  - Rapidity Dependence
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 8 d
 name: Table 15
 ---
@@ -514,10 +514,6 @@ keywords:
   values:
   - SIG
   - NB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -527,6 +523,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Paper text (Section 3)
 name: Table 16
 ---
@@ -542,10 +542,6 @@ keywords:
 - name: observables
   values:
   - RFB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -556,14 +552,18 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 9 a
 name: Table 17
 ---
 additional_resources:
 - description: Image file
-  location: Figure_009-b.png
+  location: Figure_009-a.png
 - description: Thumbnail image file
-  location: thumb_Figure_009-b.png
+  location: thumb_Figure_009-a.png
 data_file: table_18.yaml
 description: Forward-backward ratios for $60<m_{\mu\mu}<120$ GeV. Quoted uncertainties
   are the quadratic sum of the statistical and systematic uncertainties.
@@ -571,10 +571,6 @@ keywords:
 - name: observables
   values:
   - RFB
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -585,6 +581,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 9 b
 name: Table 18
 ---
@@ -600,10 +600,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -612,6 +608,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 3 a
 name: Table 19
 ---
@@ -628,10 +628,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -641,6 +637,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 3 b
 name: Table 20
 ---
@@ -657,10 +657,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -671,6 +667,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 3 c
 name: Table 21
 ---
@@ -686,10 +686,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -699,6 +695,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4 a
 name: Table 22
 ---
@@ -714,10 +714,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -728,6 +724,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4 b
 name: Table 23
 ---
@@ -743,10 +743,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -755,6 +751,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4 c
 name: Table 24
 ---
@@ -770,10 +770,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -783,6 +779,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4 d
 name: Table 25
 ---
@@ -797,10 +797,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -811,6 +807,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 3
 name: Table 26
 ---
@@ -825,10 +825,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -839,6 +835,10 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4
 name: Table 27
 ---
@@ -853,10 +853,6 @@ keywords:
 - name: observables
   values:
   - Correlation
-- name: reactions
-  values:
-  - P PB --> Z0 <MU+ MU-> X
-  - P PB --> GAMMA* <MU+ MU-> X
 - name: phrases
   values:
   - Inclusive
@@ -866,5 +862,9 @@ keywords:
 - name: cmenergies
   values:
   - 8160
+- name: reactions
+  values:
+  - P PB --> Z0 <MU+ MU-> X
+  - P PB --> GAMMA* <MU+ MU-> X
 location: Data from Figure 4
 name: Table 28

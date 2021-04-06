@@ -17,24 +17,24 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.11883
-    value: 1.0392
+      symerror: 0.119
+    value: 1.039
   - errors:
     - label: Total
-      symerror: 0.11118
-    value: 0.95954
+      symerror: 0.111
+    value: 0.96
   - errors:
     - label: Total
-      symerror: 0.10502
-    value: 0.85979
+      symerror: 0.105
+    value: 0.86
   - errors:
     - label: Total
-      symerror: 0.11688
+      symerror: 0.117
     value: 1.031
   - errors:
     - label: Total
-      symerror: 0.22757
-    value: 1.0703
+      symerror: 0.228
+    value: 1.07
 independent_variables:
 - header:
     name: absolute rapidity

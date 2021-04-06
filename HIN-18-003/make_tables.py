@@ -44,6 +44,55 @@ submission.add_record_id(1849180, "inspire")
 
 
 #####################################################################
+## Parameters                                                      ##
+#####################################################################
+
+# maximum number of significant digits
+maxdigits = 3
+
+#####################################################################
+## Helper functions for rounding numbers                           ##
+#####################################################################
+
+from math import log10, floor
+
+def signif_digits(av, nd):
+   """
+   A function to compute the argument to be given to round(x, n) such that the result has nd significant digits at most.
+
+   Parameters:
+      av (list): list of lists of floats, all of the same size.
+      nd (int): maximum number of significant digits for each of the rows
+
+   Returns:
+      an (list): list with the parameter n to be given to round(x, n) for each row
+   """
+   an = []
+
+   for i in range(len(av[0])):
+      v = [x[i] for x in av]
+      n = 999
+      for y in v:
+         n = min(n, -int(floor(log10(y))) + (nd - 1))
+      an.append(n)
+
+   return an
+
+def floor_list(x, n):
+   """
+   Like round(x, n), except that here x is a list of lists and n is a list
+   """
+   v = []
+   for j in range(len(x)):
+      v.append([])
+
+   for i in range(len(x[0])):
+      for j in range(len(x)):
+         v[j].append(round(x[j][i], n[i]))
+
+   return v
+
+#####################################################################
 
 # ## Tables for Figs 5-6 (fiducial cross section, no acceptance)
 print("Making tables for Figs 5-6 (fiducial cross section, no acceptance)")
@@ -165,19 +214,26 @@ for i in range(len(inputs_xsec_noacc)):
     if sym:
         unc = Uncertainty('Total')
         unc.values = [float(x) for x in data[:,3]]
-        dsigma.add_uncertainty(unc)
     else:
         unc = Uncertainty('Total', is_symmetric=False)
         print("Uncertainties for",inputs_xsec_noacc[i],"are asymmetric!")
         unc.values = data[:,3:5]
-        dsigma.add_uncertainty(unc)
 
     # lumi uncertainty
     unc_lum = Uncertainty('global luminosity uncertainty')
     unc_lum.values = [0.035*x for x in dsigma.values]
-    dsigma.add_uncertainty(unc_lum)
-    
+
+    # synchronise the number of signif. digits
+    uncs = [unc, unc_lum]
+    uncs_updated = floor_list([u.values for u in uncs], signif_digits([u.values for u in uncs], maxdigits))
+
+    for i in range(len(uncs)):
+       u = uncs[i]
+       u.values = uncs_updated[i]
+       dsigma.add_uncertainty(u)
+
     table.add_variable(d)
+    dsigma.values = floor_list([dsigma.values], signif_digits([u.values for u in uncs], maxdigits))[0]
     table.add_variable(dsigma)
     table.add_image("inputs/Figure_00"+str(image_nb[i])+"-"+image_lett[i]+".pdf")
     table.keywords["phrases"] = ["Inclusive", "Single Differential Cross Section", "Drell Yan", "Di-Muon Production"]
@@ -218,15 +274,22 @@ sigma.add_qualifier("RAP_CM", "< 1.93")
 
 unc_stat = Uncertainty('stat')
 unc_stat.values = [0.5, 0.9]
-sigma.add_uncertainty(unc_stat)
 unc_syst = Uncertainty('syst')
 unc_syst.values = [0.8, 1.6]
-sigma.add_uncertainty(unc_syst)
 unc_lum = Uncertainty('global luminosity uncertainty')
 unc_lum.values = [0.035*x for x in sigma.values]
-sigma.add_uncertainty(unc_lum)
+
+# synchronise the number of signif. digits
+uncs = [unc_stat, unc_syst, unc_lum]
+uncs_updated = floor_list([u.values for u in uncs], signif_digits([u.values for u in uncs], maxdigits))
+
+for i in range(len(uncs)):
+    u = uncs[i]
+    u.values = uncs_updated[i]
+    sigma.add_uncertainty(u)
 
 table.add_variable(d)
+sigma.values = floor_list([sigma.values], signif_digits([u.values for u in uncs], maxdigits))[0]
 table.add_variable(sigma)
 table.keywords["phrases"] = ["Inclusive", "Cross Section", "Drell Yan", "Di-Muon Production"]
 
@@ -287,19 +350,26 @@ for i in range(len(inputs_xsec)):
     if sym:
         unc = Uncertainty('Total')
         unc.values = [float(x) for x in data[:,3]]
-        dsigma.add_uncertainty(unc)
     else:
         unc = Uncertainty('Total', is_symmetric=False)
         print("Uncertainties for",inputs_xsec[i],"are asymmetric!")
         unc.values = data[:,3:5]
-        dsigma.add_uncertainty(unc)
 
     # lumi uncertainty
     unc_lum = Uncertainty('global luminosity uncertainty')
     unc_lum.values = [0.035*x for x in dsigma.values]
-    dsigma.add_uncertainty(unc_lum)
+
+    # synchronise the number of signif. digits
+    uncs = [unc, unc_lum]
+    uncs_updated = floor_list([u.values for u in uncs], signif_digits([u.values for u in uncs], maxdigits))
+
+    for i in range(len(uncs)):
+       u = uncs[i]
+       u.values = uncs_updated[i]
+       dsigma.add_uncertainty(u)
     
     table.add_variable(d)
+    dsigma.values = floor_list([dsigma.values], signif_digits([u.values for u in uncs], maxdigits))[0]
     table.add_variable(dsigma)
     table.add_image("inputs/Figure_00"+str(image_nb[i])+"-"+image_lett[i]+".pdf")
     table.keywords["phrases"] = ["Inclusive", "Single Differential Cross Section", "Drell Yan", "Di-Muon Production"]
@@ -337,15 +407,22 @@ sigma.add_qualifier("RAP_CM", "< 1.93")
 
 unc_stat = Uncertainty('stat')
 unc_stat.values = [3.6, 1.3]
-sigma.add_uncertainty(unc_stat)
 unc_syst = Uncertainty('syst')
 unc_syst.values = [14.4, 2.7]
-sigma.add_uncertainty(unc_syst)
 unc_lum = Uncertainty('global luminosity uncertainty')
 unc_lum.values = [0.035*x for x in sigma.values]
-sigma.add_uncertainty(unc_lum)
+
+# synchronise the number of signif. digits
+uncs = [unc_stat, unc_syst, unc_lum]
+uncs_updated = floor_list([u.values for u in uncs], signif_digits([u.values for u in uncs], maxdigits))
+
+for i in range(len(uncs)):
+    u = uncs[i]
+    u.values = uncs_updated[i]
+    sigma.add_uncertainty(u)
 
 table.add_variable(d)
+sigma.values = floor_list([sigma.values], signif_digits([u.values for u in uncs], maxdigits))[0]
 table.add_variable(sigma)
 table.keywords["phrases"] = ["Inclusive", "Cross Section", "Drell Yan", "Di-Muon Production"]
 
@@ -400,14 +477,22 @@ for i in range(len(inputs_rfb)):
     if sym:
         unc = Uncertainty('Total')
         unc.values = [float(x) for x in data[:,3]]
-        dsigma.add_uncertainty(unc)
     else:
         unc = Uncertainty('Total', is_symmetric=False)
         print("Uncertainties for",inputs_rfb[i],"are asymmetric!")
         unc.values = data[:,3:5]
-        dsigma.add_uncertainty(unc)
+
+    # synchronise the number of signif. digits
+    uncs = [unc]
+    uncs_updated = floor_list([u.values for u in uncs], signif_digits([u.values for u in uncs], maxdigits))
+
+    for i in range(len(uncs)):
+       u = uncs[i]
+       u.values = uncs_updated[i]
+       dsigma.add_uncertainty(u)
     
     table.add_variable(d)
+    dsigma.values = floor_list([dsigma.values], signif_digits([u.values for u in uncs], maxdigits))[0]
     table.add_variable(dsigma)
     table.add_image("inputs/Figure_00"+str(image_nb[i])+"-"+image_lett[i]+".pdf")
     table.keywords["phrases"] = ["Inclusive", "Forward-Backward Ratio", "Drell Yan", "Di-Muon Production"]
@@ -543,10 +628,10 @@ for i in range(len(inputs_cormat)):
          binall[i] = "lm_" + str(i)
       for i in range(nbins[varname.replace("all","")]):
          binall[i+nbins[varname.replace("all","") + "1560"]] = "hm_" + str(i)
-   x.values = [binall[x-0.5] for x in data["x"]]
+   x.values = [binall[xx-0.5] for xx in data["x"]]
 
    y = Variable("Second bin", is_independent=True, is_binned=False)
-   y.values = [binall[y-0.5] for y in data["y"]]
+   y.values = [binall[yy-0.5] for yy in data["y"]]
 
    correlation = Variable("Correlation coefficient", is_independent=False, is_binned=False)
    correlation.values = data["z"]

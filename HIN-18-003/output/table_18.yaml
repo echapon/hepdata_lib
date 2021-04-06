@@ -17,44 +17,44 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.049806
+      symerror: 0.0498
     value: 1.1191
   - errors:
     - label: Total
-      symerror: 0.046606
+      symerror: 0.0466
     value: 1.0282
   - errors:
     - label: Total
-      symerror: 0.04801
+      symerror: 0.048
     value: 1.0685
   - errors:
     - label: Total
-      symerror: 0.044213
-    value: 0.97858
+      symerror: 0.0442
+    value: 0.9786
   - errors:
     - label: Total
-      symerror: 0.046068
-    value: 0.96053
+      symerror: 0.0461
+    value: 0.9605
   - errors:
     - label: Total
-      symerror: 0.045135
-    value: 0.91993
+      symerror: 0.0451
+    value: 0.9199
   - errors:
     - label: Total
-      symerror: 0.049188
-    value: 0.91615
+      symerror: 0.0492
+    value: 0.9162
   - errors:
     - label: Total
-      symerror: 0.054303
-    value: 0.86351
+      symerror: 0.0543
+    value: 0.8635
   - errors:
     - label: Total
-      symerror: 0.065186
-    value: 0.75427
+      symerror: 0.0652
+    value: 0.7543
   - errors:
     - label: Total
-      symerror: 0.17631
-    value: 1.0414
+      symerror: 0.176
+    value: 1.041
 independent_variables:
 - header:
     name: absolute rapidity

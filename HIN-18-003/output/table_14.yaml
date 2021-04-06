@@ -21,58 +21,58 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 119.98
+      symerror: 120.0
     - label: global luminosity uncertainty
-      symerror: 26.853
-    value: 767.22
+      symerror: 27.0
+    value: 767.0
   - errors:
     - label: Total
-      symerror: 75.467
+      symerror: 75.5
     - label: global luminosity uncertainty
-      symerror: 22.538
-    value: 643.93
+      symerror: 22.5
+    value: 643.9
   - errors:
     - label: Total
-      symerror: 73.208
+      symerror: 73.2
     - label: global luminosity uncertainty
-      symerror: 22.469
-    value: 641.97
+      symerror: 22.5
+    value: 642.0
   - errors:
     - label: Total
-      symerror: 66.213
+      symerror: 66.2
     - label: global luminosity uncertainty
-      symerror: 21.368
-    value: 610.52
+      symerror: 21.4
+    value: 610.5
   - errors:
     - label: Total
-      symerror: 57.158
+      symerror: 57.2
     - label: global luminosity uncertainty
-      symerror: 19.087
-    value: 545.34
+      symerror: 19.1
+    value: 545.3
   - errors:
     - label: Total
-      symerror: 39.551
+      symerror: 39.6
     - label: global luminosity uncertainty
-      symerror: 13.155
-    value: 375.87
+      symerror: 13.2
+    value: 375.9
   - errors:
     - label: Total
-      symerror: 20.992
+      symerror: 21.0
     - label: global luminosity uncertainty
-      symerror: 6.7899
+      symerror: 6.8
     value: 194.0
   - errors:
     - label: Total
-      symerror: 4.0597
+      symerror: 4.06
     - label: global luminosity uncertainty
-      symerror: 1.3174
-    value: 37.641
+      symerror: 1.32
+    value: 37.64
   - errors:
     - label: Total
-      symerror: 0.39929
+      symerror: 0.399
     - label: global luminosity uncertainty
-      symerror: 0.14974
-    value: 4.2784
+      symerror: 0.15
+    value: 4.278
 independent_variables:
 - header:
     name: phistar
