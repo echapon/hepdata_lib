@@ -29,75 +29,75 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.217
+      symerror: 0.22
     - label: global luminosity uncertainty
-      symerror: 0.062
-    value: 1.774
+      symerror: 0.06
+    value: 1.77
   - errors:
     - label: Total
-      symerror: 0.373
+      symerror: 0.37
     - label: global luminosity uncertainty
       symerror: 0.17
-    value: 4.845
+    value: 4.85
   - errors:
     - label: Total
-      symerror: 0.509
-    - label: global luminosity uncertainty
-      symerror: 0.189
-    value: 5.394
-  - errors:
-    - label: Total
-      symerror: 0.428
+      symerror: 0.51
     - label: global luminosity uncertainty
       symerror: 0.19
-    value: 5.423
+    value: 5.39
   - errors:
     - label: Total
-      symerror: 0.461
+      symerror: 0.43
     - label: global luminosity uncertainty
-      symerror: 0.199
-    value: 5.687
-  - errors:
-    - label: Total
-      symerror: 0.478
-    - label: global luminosity uncertainty
-      symerror: 0.212
-    value: 6.051
-  - errors:
-    - label: Total
-      symerror: 0.507
-    - label: global luminosity uncertainty
-      symerror: 0.187
-    value: 5.342
+      symerror: 0.19
+    value: 5.42
   - errors:
     - label: Total
       symerror: 0.46
     - label: global luminosity uncertainty
-      symerror: 0.191
-    value: 5.449
+      symerror: 0.2
+    value: 5.69
   - errors:
     - label: Total
-      symerror: 0.496
+      symerror: 0.48
     - label: global luminosity uncertainty
-      symerror: 0.201
-    value: 5.752
+      symerror: 0.21
+    value: 6.05
   - errors:
     - label: Total
-      symerror: 0.454
+      symerror: 0.51
     - label: global luminosity uncertainty
-      symerror: 0.156
-    value: 4.461
+      symerror: 0.19
+    value: 5.34
   - errors:
     - label: Total
-      symerror: 0.352
+      symerror: 0.46
     - label: global luminosity uncertainty
-      symerror: 0.137
-    value: 3.923
+      symerror: 0.19
+    value: 5.45
+  - errors:
+    - label: Total
+      symerror: 0.5
+    - label: global luminosity uncertainty
+      symerror: 0.2
+    value: 5.75
+  - errors:
+    - label: Total
+      symerror: 0.45
+    - label: global luminosity uncertainty
+      symerror: 0.16
+    value: 4.46
+  - errors:
+    - label: Total
+      symerror: 0.35
+    - label: global luminosity uncertainty
+      symerror: 0.14
+    value: 3.92
   - errors:
     - label: Total
       symerror: 0.33
     - label: global luminosity uncertainty
-      symerror: 0.058
+      symerror: 0.06
     value: 1.65
 independent_variables:
 - header:

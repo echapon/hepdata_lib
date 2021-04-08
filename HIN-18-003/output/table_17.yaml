@@ -17,23 +17,23 @@ dependent_variables:
   values:
   - errors:
     - label: Total
-      symerror: 0.119
-    value: 1.039
+      symerror: 0.12
+    value: 1.04
   - errors:
     - label: Total
-      symerror: 0.111
+      symerror: 0.11
     value: 0.96
   - errors:
     - label: Total
-      symerror: 0.105
+      symerror: 0.11
     value: 0.86
   - errors:
     - label: Total
-      symerror: 0.117
-    value: 1.031
+      symerror: 0.12
+    value: 1.03
   - errors:
     - label: Total
-      symerror: 0.228
+      symerror: 0.23
     value: 1.07
 independent_variables:
 - header:

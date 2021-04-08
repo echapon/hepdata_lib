@@ -48,7 +48,7 @@ submission.add_record_id(1849180, "inspire")
 #####################################################################
 
 # maximum number of significant digits
-maxdigits = 3
+maxdigits = 2
 
 #####################################################################
 ## Helper functions for rounding numbers                           ##

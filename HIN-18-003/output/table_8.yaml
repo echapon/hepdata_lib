@@ -22,7 +22,7 @@ dependent_variables:
     - label: syst
       symerror: 0.8
     - label: global luminosity uncertainty
-      symerror: 0.791
+      symerror: 0.79
     value: 22.6
   - errors:
     - label: stat
@@ -30,7 +30,7 @@ dependent_variables:
     - label: syst
       symerror: 1.6
     - label: global luminosity uncertainty
-      symerror: 4.28
+      symerror: 4.3
     value: 122.3
 independent_variables:
 - header:
